@@ -1,0 +1,121 @@
+*{
+    margin: 0; padding: 0;
+}
+body {background-color: rgb(241, 229, 229);}
+
+header{ background-color: rgb(79, 80, 28);display: flex;
+justify-content: space-around;align-items: center;
+opacity: .9;
+position: sticky;
+top: 0;
+}
+
+header img {width: 160px;}
+
+ul{list-style: none;}
+nav ul {
+    display: flex; justify-content: center;
+    gap: 30px;}
+
+    a{text-decoration: none;}
+
+    li a {color: antiquewhite;}
+
+   main {margin 50 px;0}
+
+   .banner {background-image:url(../img/Prada\ Spring\ 2022\ Menswear\ Collection.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+height: 480px;
+width: 100%;}
+
+ul {font-family: 'Plus Jakarta Sans', sans-serif;}
+
+main {
+    margin: 50px 0;
+}
+p {
+    font: 100% sans-serif;
+  }
+
+  H1,h2 {
+    font: 185% sans-serif;
+  }
+
+    h1, h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .parrafo-desc {
+        margin: 0 auto;
+        width: 85%;
+    }
+    
+    .padre-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+       
+    }
+    div{border-radius: 16px
+    px;}
+
+    .card {
+        width: 280px;
+        background-color: #252937;
+        color: #C5C0C0;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card button {
+        border: none;
+        padding: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    
+    
+    .contenedor-padre {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #232323;
+        color: #C5C0C0;
+    }
+
+    
+    .contenedor img {
+        width:480 px;
+    }
+    
+    
+    .reverse {
+        flex-direction: row-reverse;
+        background-color: #C5C0C0;
+        color: #232323;
+    }
+    
+    .reverse .contenedor-textos {
+        text-align: right;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    

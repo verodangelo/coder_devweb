@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body>
+    <header>
+        <a href="../Index.html"> <img src="../img/work23.png" alt="logo workfulness"></a>            
+    <nav>
+        <ul>
+            <li>
+                <a href="../Index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="galeria.html">Galeria</a>
+            </li>
+            <li>
+                <a href="ubicacion.html">Ubicacion</a>
+            </li>
+            <li>
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+        
+    </nav>
+</header>
+
+
+    <main>
+        <h1>Contacto</h1>
+        <form>
+            <div>
+                <label for="nombre-apellido">Nombre y Apellido</label>
+            <input type="text" id="nombre-apellido" placeholder="Nombre completo" required>
+            </div>
+            
+            <div>
+                <label for="dni">DNI</label>
+           <input type="number"  id="dni" required>
+            </div>
+
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="tel"  id="telefono" required>
+            </div>
+
+            <div>
+                <p>Genero:</p>
+                <label for="">Masculino</label>
+                <input type="radio" name="genero" id="masc" required>
+
+                <label for="">Femenino</label>
+               <input type="radio" name="genero" id="fem" required>
+
+               <label for="n">Prefiero no decirlo</label>
+               <input type="radio" name="genero" id="no-decir" required>
+            
+            </div>
+            <div>
+                <label for="mensaje">Dejanos tu mensaje</label>
+                <textarea id="mensaje" cols="30" rows="10" placeholder="Dejanos tu sugerencia "></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar formulario">
+            </div>
+        </form>
+    </main>
+
+    <section>
+
+        <footer>2023&copy;Workfulness&reg;</footer>
+   </section>
+</body>
+</html>
